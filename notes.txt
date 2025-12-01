@@ -1,0 +1,22 @@
+To run C++ code (deepseek):
+@ g++ hello.cpp -o hello
+@ ./hello
+
+
+from the web:
+From the command line, type:
+g++ -o HelloWorld HelloWorld.cpp
+
+This will compile and link HelloWorld.cpp. To run it, type:
+HelloWorld (or possibly ./HelloWorld), and you will see the output of your program.
+
+
+to run with updated clang:
+g++ main.cpp -o main -std=c++17
+
+in c/c++ standard, set to latest c++ version
+in c/c++ configuration
+
+
+to open file:
+zed main.cpp
