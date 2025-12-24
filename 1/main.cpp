@@ -1,13 +1,15 @@
 #include <iostream>
 
-void foo()
+int returnFive()
 {
-    std::cout << "foo!\n";
+    return 5;
 }
 
 int main()
 {
-    foo();
+    std::cout << returnFive() << '\n';
+    std::cout << returnFive() + 2 << '\n';
+    returnFive();
 
     return 0;
 }
