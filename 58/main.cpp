@@ -1,3 +1,5 @@
+// Quiz
+
 #include <iostream>
 
 void printA()
@@ -17,3 +19,5 @@ int main()
 
     return 0;
 }
+
+// This program prints the letters A and B on separate lines.
