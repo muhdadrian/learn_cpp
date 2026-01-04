@@ -19,3 +19,26 @@ int main()
 
     return 0;
 }
+
+/*
+ learncpp.com answer:
+
+ #include <iostream>
+
+ int doubleNumber(int x)
+ {
+     return 2 * x;
+ }
+
+ int main()
+ {
+     std::cout << "Enter an integer value: ";
+     int x{};
+     std::cin >> x;
+     std::cout << doubleNumber(x) << '\n';
+
+     return 0;
+ }
+
+ Note: You may come up with other (similar) solutions. There are often many ways to do the same thing in C++.
+ */
