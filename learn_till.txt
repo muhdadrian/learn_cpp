@@ -1,3 +1,3 @@
 2.5 — Introduction to local scope
 
-Local scope (block scope)
+When to use function parameters vs Local variables
