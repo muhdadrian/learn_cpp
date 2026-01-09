@@ -1,3 +1,1 @@
-2.5 — Introduction to local scope
-
-When to use function parameters vs Local variables
+2.6 — Why functions are useful, and how to use them effectively
