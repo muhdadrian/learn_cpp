@@ -46,3 +46,15 @@ Here’s what happens in this program:
 
 Note that even though doIt‘s variables x and y had their values initialized or assigned to something different than main‘s, main‘s x and y were unaffected because they are different variables.
  */
+
+ /*
+ Typically, when learning C++, you will write a lot of programs that involve 3 subtasks:
+
+ 1) Reading inputs from the user
+ 2) Calculating a value from the inputs
+ 3) Printing the calculated value
+
+ For trivial programs (e.g. less than 20 lines of code), some or all of these can be done in function main. However, for longer programs (or just for practice) each of these is a good candidate for an individual function.
+  */
+
+  // New programmers often combine calculating a value and printing the calculated value into a single function. However, this violates the “one task” rule of thumb for functions. A function that calculates a value should return the value to the caller and let the caller decide what to do with the calculated value (such as call another function to print the value).
