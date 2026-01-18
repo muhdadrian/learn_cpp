@@ -1,21 +1,14 @@
-// Write a complete program that reads an integer from the user, doubles it using the doubleNumber() function you wrote in the previous quiz question, and then prints the doubled value out to the console.
-
-
 #include <iostream>
 
-int doubleNumber()
+void printHi()
 {
-        std::cout << "Enter an integer: ";
-        int num{};
-        std::cin >> num;
-        return num * 2;
+    std::cout << "Hi" << '\n';
 }
 
 int main()
 {
 
-    std::cout << doubleNumber() << '\n';
-
+    printHi();
 
     return 0;
 }
