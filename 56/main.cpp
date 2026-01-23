@@ -3,7 +3,7 @@ Tip:
 
 Some statements require values to be provided, and others don’t.
 
-When we have a statement that consists of just a function call (e.g. the first printHi() in the above example), we’re calling a function for its behavior, not its return value. In this case, we can call either a non-value returning function, or we can call a value-returning function and just ignore the return value.
+When we have a statement that consists of just a function call (e.g. the first printHi() in the example of folder 55), we’re calling a function for its behavior, not its return value. In this case, we can call either a non-value returning function, or we can call a value-returning function and just ignore the return value.
 
 When we call a function in a context that requires a value (e.g. std::cout), a value must be provided. In such a context, we can only call value-returning functions.
  */
