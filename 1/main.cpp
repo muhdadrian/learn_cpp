@@ -1,21 +1,16 @@
 #include <iostream>
 
-int getValueFromUser()
+int printDouble(int x)
 {
-    std::cout << "Enter an integer: ";
-    int input {};
-    std::cin >> input;
-
-    return input;
-}
-
-void printDouble(int value)
-{
-    std::cout << value << " doubled is: " << value * 2 << '\n';
+    return x * 2;
 }
 
 int main()
 {
-    printDouble(getValueFromUser());
-    return 0;
+    std::cout << "Enter an integer: ";
+    int num{};
+    std::cin >> num;
+    std::cout << printDouble(num) << '\n';
+
+
 }
